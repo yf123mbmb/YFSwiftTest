@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '406742790@qq.com' => '7478903+YangFanHome@user.noreply.gitee.com' }
-  s.source           = { :git => 'https://github.com/406742790@qq.com/YFSwiftTest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yf123mbmb/YFSwiftTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
