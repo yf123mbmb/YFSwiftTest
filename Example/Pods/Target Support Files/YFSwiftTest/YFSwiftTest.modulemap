@@ -1,0 +1,6 @@
+framework module YFSwiftTest {
+  umbrella header "YFSwiftTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

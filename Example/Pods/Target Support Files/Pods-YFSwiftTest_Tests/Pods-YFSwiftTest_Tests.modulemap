@@ -1,0 +1,6 @@
+framework module Pods_YFSwiftTest_Tests {
+  umbrella header "Pods-YFSwiftTest_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

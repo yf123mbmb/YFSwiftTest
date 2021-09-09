@@ -1,0 +1,16 @@
+PODS:
+  - YFSwiftTest (0.1.0)
+
+DEPENDENCIES:
+  - YFSwiftTest (from `../`)
+
+EXTERNAL SOURCES:
+  YFSwiftTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YFSwiftTest: 217e0b68df5dc344101c626be08ab6f4e6b884fd
+
+PODFILE CHECKSUM: eebe8ecd4bdb853f4a9a94fa6d5ca3492acf71c0
+
+COCOAPODS: 1.10.0

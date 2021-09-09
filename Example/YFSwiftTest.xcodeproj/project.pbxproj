@@ -42,10 +42,10 @@
 		60B09DCD2DCB54E5D3C62C15 /* Pods_YFSwiftTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFSwiftTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F01CD65E3324BA04451F36F /* Pods-YFSwiftTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFSwiftTest_Example.debug.xcconfig"; path = "Target Support Files/Pods-YFSwiftTest_Example/Pods-YFSwiftTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		83D09B75062B1A6FFAFBEFDB /* Pods-YFSwiftTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFSwiftTest_Tests.release.xcconfig"; path = "Target Support Files/Pods-YFSwiftTest_Tests/Pods-YFSwiftTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8C4836134D7C64CBCD42128F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		ADCD884341FC99A60D9CAFEC /* YFSwiftTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YFSwiftTest.podspec; path = ../YFSwiftTest.podspec; sourceTree = "<group>"; };
+		8C4836134D7C64CBCD42128F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ADCD884341FC99A60D9CAFEC /* YFSwiftTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YFSwiftTest.podspec; path = ../YFSwiftTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B6C3C4B6B4E060B9057D6954 /* Pods_YFSwiftTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFSwiftTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE2FCCB80065FA7F1FEA01BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CE2FCCB80065FA7F1FEA01BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EE09EEBDDC330C6D53953938 /* Pods-YFSwiftTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFSwiftTest_Example.release.xcconfig"; path = "Target Support Files/Pods-YFSwiftTest_Example/Pods-YFSwiftTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				2EF8AEBA3D7700AEAD5DC56F /* Pods-YFSwiftTest_Tests.debug.xcconfig */,
 				83D09B75062B1A6FFAFBEFDB /* Pods-YFSwiftTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
