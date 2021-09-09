@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YFSwiftTest'
-  s.version          = '0.1.1'
-  s.summary          = '新的swift包'
+  s.version          = '0.1.2'
+  s.summary          = '新的swift包2'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/406742790@qq.com/YFSwiftTest'
+  s.homepage         = 'https://github.com/yf123mbmb'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '406742790@qq.com' => '7478903+YangFanHome@user.noreply.gitee.com' }
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'YFSwiftTest/Classes/**/*'
+  s.source_files = 'YFSwiftTest/Classes/*.Swift'
   
   # s.resource_bundles = {
   #   'YFSwiftTest' => ['YFSwiftTest/Assets/*.png']
